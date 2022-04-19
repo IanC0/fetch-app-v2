@@ -28,7 +28,7 @@ const MyFetch = () => {
         <div>
             {error && <p>{error}</p>}
             {facts.map((x) => (
-                <p>{x.text}</p>
+                <p>{x.text} </p>
             ))}
         </div>
     )
